@@ -1,0 +1,42 @@
+.name{
+    font-size: x-large;
+    color:steelblue;
+    background-color: #c7fafa;
+    height: 60px;
+}
+.information{
+    color:steelblue;
+    background-color: lightcyan;
+    height: 175px;
+    padding: 5px;
+}
+.images{
+    overflow: hidden;
+    display: block;
+    padding-left: 100px;
+    margin-top: 15px;
+}
+.space{
+    display: inline-block;
+}
+header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(148, 186, 255);
+    position: fixed;
+    top: 0;
+}
+nav{
+    float: left;
+}
+nav a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover:not(.active){
+    background-color: rgb(110, 161, 255);
+}
